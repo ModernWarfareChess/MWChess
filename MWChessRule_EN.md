@@ -89,7 +89,7 @@ As illustrated:
   
   - ***Initial Move Rule***: On its first move, A ***pawn*** may move forward by two adjacent squares in a straight line, without skipping or jumping over any square in any of the permitted directions (forward, forward-left, forward-right, left, or right). This extended move ***cannot*** be used to capture.
   
-  - ***Suppression Rule***: A ***pawn*** may only be captured by an enemy piece when it is ***suppressed***, meaning there are at least two enemy pieces within the eight adjacent squares surrounding the pawn.
+  - ***Suppression Rule***: A ***pawn*** may only be captured by an enemy piece when it is ***suppressed***, meaning there are at least two enemy pieces within the eight adjacent squares surrounding the ***pawn***.
   
   #### Symbolism:
   ***Pawns*** represent frontline combat units in modern warfare, offering high mobility and strong area control. Compared to traditional chess, MWChess ***pawns*** are more powerful and serve as the backbone of a faction’s strategic execution. The suppression rule reflects the survivability of mainline troops when not under concentrated fire.
