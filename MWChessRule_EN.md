@@ -171,27 +171,27 @@ If a player’s ***queen*** successfully reaches any square on the opponent’s 
 
 - ***King***
 
-  The King possesses actual combat capability. Therefore, in the mid-to-late stages of the game, it should not remain purely defensive. When the situation allows, the King can advance proactively to exert pressure on the opponent’s formation.
+  The ***king*** possesses actual combat capability. Therefore, in the mid-to-late stages of the game, it should not remain purely defensive. When the situation allows, the ***king*** can advance proactively to exert pressure on the opponent’s formation.
 
 - ***Pawn***
 
-  Pawns offer strong control and resilience, making them ideal for stabilizing the frontline and midboard. However, as Pawns cannot retreat and become increasingly constrained near the enemy back rank, players should avoid advancing them too early or too deep into enemy territory.
+  ***Pawns*** offer strong control and resilience, making them ideal for stabilizing the frontline and midboard. However, as ***pawns*** cannot retreat and become increasingly constrained near the enemy back rank, players should avoid advancing them too early or too deep into enemy territory.
 
 - ***Rook***
 
-  The Rook determines the Bishop’s deployment range. Effective use of its long-range mobility allows for strategic positioning of Bishops on key squares. However, Rooks cannot capture and lack self-defense, so they should avoid overextension or isolation behind enemy lines.
+  The ***rook*** determines the ***bishop***’s movement range. Effective use of its long-range mobility allows for strategic positioning of ***bishops*** on key squares. However, ***rooks*** cannot capture and lack self-defense, so they should avoid overextension or isolation behind enemy lines.
 
 - ***Bishop***
 
-  Although a Bishop’s positioning is heavily dependent on the Rook’s deployment, it can move by capturing. Players should stay alert for opportunities to use enemy pieces as stepping stones, enabling Bishops to reposition unexpectedly and pose threats from new angles.
+  Although a ***bishop***’s movement is heavily dependent on the ***rook***’s position, it can also move by capturing. Players should stay alert for opportunities to use enemy pieces as stepping stones, enabling ***bishops*** to reposition unexpectedly and pose threats from new angles, instead of being isolated on the board and unable to move, after both ***rooks*** have been captured.
 
 - ***Knight***
 
-  Knights hold high strategic value, as they are not subject to the “Pawns must be suppressed to be captured” rule, and enemy Bishops are not immune to Knight attacks. Knights should be actively developed in the early and middlegame, especially when seeking to suppress the opponent’s Queen or Bishops.
+  The ***knight*** holds high strategic value, as it is not subject to the ***pawns*** must be suppressed to be captured rule, and enemy ***bishops*** are not immune to ***Knight*** attacks. ***Knights*** should be actively developed in the early and middlegame, especially when seeking to suppress the opponent’s ***queen*** or ***bishops***.
 
 - ***Queen***
 
-  While the Queen cannot capture, it has powerful mobility and decisive influence over the game’s outcome. It should be carefully preserved during the early game and positioned in the mid-to-late game to strike at victory via PoliWin. Eliminating the opponent’s Queen is also a key strategic objective, enabling control of tempo and long-term advantage.
+  While the ***queen*** cannot capture, it has powerful mobility and decisive influence over the game’s outcome. It should be carefully preserved during the early game and positioned in the mid-to-late game to strike at victory via PoliWin. Eliminating the opponent’s ***queen*** is also a key strategic objective, enabling control of tempo and long-term advantage.
 
 > © 2025 by the original author.  
 > This ruleset is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.  
