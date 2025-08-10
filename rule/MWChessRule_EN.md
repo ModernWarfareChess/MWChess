@@ -6,6 +6,19 @@ MWChess is designed to be accessible even to those unfamiliar with classical che
 
 ---
 
+## Table of Contents
+- [1. Design Objectives of MWChess](#1-design-objectives-of-mwchess)
+- [2. Board and Initial Setup](#2-board-and-initial-setup)
+- [3. Piece Rules and Symbolism](#3-piece-rules-and-symbolism)
+  - [3.1 King](#31-king)
+  - [3.2 Pawn](#32-pawn)
+  - [3.3 Rook](#33-rook)
+  - [3.4 bishop](#34-bishop)
+  - [3.5 Knight](#35-knight)
+  - [3.1 Queen](#36-queen)
+- [4. Victory Conditions](#4-victory-conditions)
+- [5. Strategic Guidelines](#5-strategic-guidelines)
+
 ## 1. Design Objectives of MWChess
 
 The core philosophy behind MWChess is to retain the foundational framework of classical chess while integrating strategic concepts and political dynamics reflective of modern warfare. The game seeks to abstract key characteristics of contemporary military confrontation at both the rule and mechanic levels, encouraging players to develop a systematic understanding of modern conflict and strategic interplay. The specific design goals are as follows:
@@ -69,6 +82,7 @@ As illustrated:
 <p align="center">
 <img src="res/initBoard.jpg" alt="Initial Board" width="400">
 </p>
+
 ---
 
 ## 3. Piece Rules and Symbolism
