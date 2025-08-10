@@ -211,15 +211,15 @@ As illustrated:
 
 ## 4. Victory Conditions
 
-### 4.1. ***Checkmate***
+### ***Checkmate***
 
 If a player makes a move that places the opponent’s ***king*** in check, and the opponent cannot make any legal move on their next turn to remove the ***king*** from check, the player delivering the checkmate wins the game.
 
-### 4.2. ***PoliWin*** (Queen Reaches Back Rank)
+### ***PoliWin*** (Queen Reaches Back Rank)
 
 If a player’s ***queen*** successfully reaches any square on the opponent’s back rank (the ***1st*** rank for White, the ***8th*** rank for Black), that player immediately wins the game.
 
-### 4.3. ***Draw***
+### ***Draw***
   - A draw may be offered by one player and accepted by the other.
   - If a player has no legal move and their ***king*** is not in check, the game ends in a ***stalemate***, resulting in a draw.
   - If the same position occurs three times, with the same player to move and the same possible legal moves each time, the game ends in a ***threefold*** repetition, resulting in a draw.
