@@ -13,7 +13,7 @@ MWChess is designed to be accessible even to those unfamiliar with classical che
   - [3.1 King](#31-king)
   - [3.2 Pawn](#32-pawn)
   - [3.3 Rook](#33-rook)
-  - [3.4 bishop](#34-bishop)
+  - [3.4 Bishop](#34-bishop)
   - [3.5 Knight](#35-knight)
   - [3.1 Queen](#36-queen)
 - [4. Victory Conditions](#4-victory-conditions)
