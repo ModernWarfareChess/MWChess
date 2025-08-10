@@ -19,6 +19,8 @@ MWChess is designed to be accessible even to those unfamiliar with classical che
 - [4. Victory Conditions](#4-victory-conditions)
 - [5. Strategic Guidelines](#5-strategic-guidelines)
 
+---
+
 ## 1. Design Objectives of MWChess
 
 The core philosophy behind MWChess is to retain the foundational framework of classical chess while integrating strategic concepts and political dynamics reflective of modern warfare. The game seeks to abstract key characteristics of contemporary military confrontation at both the rule and mechanic levels, encouraging players to develop a systematic understanding of modern conflict and strategic interplay. The specific design goals are as follows:
