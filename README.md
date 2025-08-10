@@ -1,4 +1,7 @@
-# Welcome to the page of Modern Warfare Chess (MWChess): A Thematic Variant Inspired by Contemporary Conflict
+# Modern Warfare Chess Project
+
+中文页面 [点击这里](#现代战争棋mwchess项目)
+
 A Chess Variant Representing Modern Warfare. 
 
 # About Chess
@@ -12,6 +15,10 @@ Beyond its competitive significance, chess holds rich symbolic meaning. It repre
 A chess variant refers to any game that modifies or reinterprets the core rules, pieces, or board structure of standard chess while maintaining a recognizable connection to the original framework. These variants include historically significant precursors to modern chess—such as Chaturanga and Shatranj—as well as contemporary creations continuously emerging from the global chess community.
 
 Thanks to the creativity and dedication of chess enthusiasts and independent developers around the world, the foundational concepts of chess have been constantly extended and reimagined. Many variants introduce new piece types, asymmetrical or non-standard boards, dynamic rule systems, and even thematic overlays, breathing fresh life into this ancient game and ensuring its ongoing relevance and innovation.
+
+# 现代战争棋（MWChess）项目
+
+For the English version, [click here](#modern-warfare-chess-project)
 
 ## License
 
