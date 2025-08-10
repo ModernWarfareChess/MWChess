@@ -249,6 +249,6 @@ If a player’s ***queen*** successfully reaches any square on the opponent’s 
   While the ***queen*** cannot capture, it has powerful mobility and decisive influence over the game’s outcome. It should be carefully preserved during the early game and positioned in the mid-to-late game to strike at victory via PoliWin. Eliminating the opponent’s ***queen*** is also a key strategic objective, enabling control of tempo and long-term advantage.
 
 > © 2025 by the original author.  
-> This ruleset is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.  
-> You may redistribute this file with proper attribution, but you may not use it commercially or create derivative versions.  
-> License: https://creativecommons.org/licenses/by-nc-nd/4.0/
+> This ruleset is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.  
+> You may redistribute and modify this file with proper attribution, but you may not use it commercially.  
+> License: https://creativecommons.org/licenses/by-nc/4.0/
