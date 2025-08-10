@@ -41,28 +41,28 @@ The core philosophy behind MWChess is to retain the foundational framework of cl
 The board size, piece types, and initial setup in MWChess are fully identical to those of classical chess.
 
 Each side—White and Black—has the following set of pieces:
-- 8 Pawns
-- 2 Rooks
-- 2 Knights
-- 2 Bishops
-- 1 Queen
-- 1 King
+- 8 ***Pawns***
+- 2 ***Rooks***
+- 2 ***Knights***
+- 2 ***Bishops***
+- 1 ***Queen***
+- 1 ***King***
 
 White’s initial setup:
-- Pawns on a2 through h2
-- Rooks on a1 and h1
-- Knights on b1 and g1
-- Bishops on c1 and f1
-- Queen on d1
-- King on e1
+- ***Pawns*** on ***a2*** through ***h2***
+- ***Rooks*** on ***a1*** and ***h1***
+- ***Knights*** on ***b1*** and ***g1***
+- ***Bishops*** on ***c1*** and ***f1***
+- ***Queen*** on ***d1***
+- ***King*** on ***e1***
 
 Black’s initial setup:
-- Pawns on a7 through h7
-- Rooks on a8 and h8
-- Knights on b8 and g8
-- Bishops on c8 and f8
-- Queen on d8
-- King on e8
+- ***Pawns*** on ***a7*** through ***h7***
+- ***Rooks*** on ***a8*** and ***h8***
+- ***Knights*** on ***b8*** and ***g8***
+- ***Bishops*** on ***c8*** and ***f8***
+- ***Queen*** on ***d8***
+- ***King*** on ***e8***
 
 As illustrated:
 
@@ -89,7 +89,7 @@ As illustrated:
   
   - ***Initial Move Rule***: On its first move, A ***pawn*** may move forward by two adjacent squares in a straight line, without skipping or jumping over any square in any of the permitted directions (forward, forward-left, forward-right, left, or right). This extended move ***cannot*** be used to capture.
   
-  - ***Suppression Rule***: A ***pawn*** may only be captured by an enemy piece when it is ***suppressed***, meaning there are at least two enemy pieces within the eight adjacent squares surrounding the ***pawn***.
+  - ***Suppression Rule***: A ***pawn*** may ***only*** be captured by an enemy piece when it is ***suppressed***, meaning there are at least two enemy pieces within the eight adjacent squares surrounding the ***pawn***.
   
   #### Symbolism:
   ***Pawns*** represent frontline combat units in modern warfare, offering high mobility and strong area control. Compared to traditional chess, MWChess ***pawns*** are more powerful and serve as the backbone of a faction’s strategic execution. The suppression rule reflects the survivability of mainline troops when not under concentrated fire.
@@ -137,7 +137,7 @@ As illustrated:
   #### Movement Rules:
   - The ***queen*** may move any number of squares in a straight line in any direction—orthogonal or diagonal—provided the path is unobstructed.
   - The ***queen*** ***cannot*** capture by movement; it may only move to unoccupied squares.
-  - It plays a special role in the victory conditions (see the [Victory Conditions](#victory-conditions) section).
+  - It plays a special role in the victory conditions: if a player’s ***queen*** successfully reaches any square on the opponent’s back rank (the 8th rank for White, the 1st rank for Black), that player immediately wins the game.
 
   #### Symbolism:
   The ***queen*** symbolizes non-military strategic power—such as politics, diplomacy, and media influence. While not directly involved in battlefield operations, it plays a decisive role in the overarching strategic framework. Its unrestricted movement reflects the flexibility and broad reach of political influence across multiple domains.
@@ -155,15 +155,14 @@ If a player makes a move that places the opponent’s ***king*** in check, and t
 If a player’s ***queen*** successfully reaches any square on the opponent’s back rank (the 8th rank for White, the 1st rank for Black), that player immediately wins the game.
 
 ### 4.3. ***Draw***
+  - A draw may be offered by one player and accepted by the other.
   - If a player has no legal move and their ***king*** is not in check, the game ends in a ***stalemate***, resulting in a draw.
   - If the same position occurs three times, with the same player to move and the same possible legal moves each time, the game ends in a ***threefold*** repetition, resulting in a draw.
+  - If both players make 50 consecutive moves without any ***capture***, the game ends in a draw.
 
 > ### Special Notes
->   - Checkmate takes precedence over PoliWin.
->     Even if a player’s queen is poised to reach the opponent’s back rank on the next move (and thus achieve PoliWin), if that player’s king was checkmated by the opponent on the previous move, the opponent wins the game immediately.
->   - PoliWin may override check (but not checkmate).
->     If a player’s king is currently in check, but not checkmated (i.e., there remains a legal move to escape), that player may choose not to resolve the check and instead deliver PoliWin by moving their queen to the opponent’s back rank. In such a case, the player wins the game immediately.
-
+> - ***PoliWin*** takes lower priority than ***Check*** and ***Checkmate***.  
+>  Even if your next move could achieve ***PoliWin*** by moving the ***queen*** to the opponent's back rank, you must first respond to a ***Check*** if your ***king*** was checked in the opponent's previous turn. If it is ***Checkmate***, the opponent wins immediately.
 
 ---
 
