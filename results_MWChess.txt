@@ -1,0 +1,511 @@
+Trial 1:
+Turns: 22
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 2:
+Turns: 5
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 3:
+Turns: 33
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 4:
+Turns: 22
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 5:
+Turns: 11
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 6:
+Turns: 6
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 7:
+Turns: 24
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 8:
+Turns: 37
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 9:
+Turns: 53
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 10:
+Turns: 6
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 11:
+Turns: 50
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 12:
+Turns: 5
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 13:
+Turns: 6
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 14:
+Turns: 49
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 15:
+Turns: 20
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 16:
+Turns: 8
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 17:
+Turns: 8
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 18:
+Turns: 35
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 19:
+Turns: 51
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 20:
+Turns: 70
+P1 Rank: 1.5
+P2 Rank: 1.5
+
+Trial 21:
+Turns: 17
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 22:
+Turns: 15
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 23:
+Turns: 13
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 24:
+Turns: 16
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 25:
+Turns: 25
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 26:
+Turns: 5
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 27:
+Turns: 6
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 28:
+Turns: 10
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 29:
+Turns: 7
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 30:
+Turns: 9
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 31:
+Turns: 35
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 32:
+Turns: 3
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 33:
+Turns: 10
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 34:
+Turns: 9
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 35:
+Turns: 7
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 36:
+Turns: 4
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 37:
+Turns: 35
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 38:
+Turns: 31
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 39:
+Turns: 11
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 40:
+Turns: 19
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 41:
+Turns: 26
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 42:
+Turns: 48
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 43:
+Turns: 14
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 44:
+Turns: 13
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 45:
+Turns: 7
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 46:
+Turns: 24
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 47:
+Turns: 10
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 48:
+Turns: 28
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 49:
+Turns: 23
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 50:
+Turns: 31
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 51:
+Turns: 20
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 52:
+Turns: 34
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 53:
+Turns: 9
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 54:
+Turns: 12
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 55:
+Turns: 29
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 56:
+Turns: 62
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 57:
+Turns: 51
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 58:
+Turns: 12
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 59:
+Turns: 17
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 60:
+Turns: 37
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 61:
+Turns: 3
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 62:
+Turns: 13
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 63:
+Turns: 15
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 64:
+Turns: 13
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 65:
+Turns: 16
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 66:
+Turns: 13
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 67:
+Turns: 6
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 68:
+Turns: 5
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 69:
+Turns: 12
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 70:
+Turns: 10
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 71:
+Turns: 4
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 72:
+Turns: 37
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 73:
+Turns: 12
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 74:
+Turns: 29
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 75:
+Turns: 70
+P1 Rank: 1.5
+P2 Rank: 1.5
+
+Trial 76:
+Turns: 7
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 77:
+Turns: 5
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 78:
+Turns: 30
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 79:
+Turns: 70
+P1 Rank: 1.5
+P2 Rank: 1.5
+
+Trial 80:
+Turns: 3
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 81:
+Turns: 10
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 82:
+Turns: 4
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 83:
+Turns: 12
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 84:
+Turns: 7
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 85:
+Turns: 6
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 86:
+Turns: 5
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 87:
+Turns: 7
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 88:
+Turns: 10
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 89:
+Turns: 14
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 90:
+Turns: 6
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 91:
+Turns: 9
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 92:
+Turns: 11
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 93:
+Turns: 45
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 94:
+Turns: 4
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 95:
+Turns: 29
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 96:
+Turns: 49
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+Trial 97:
+Turns: 24
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 98:
+Turns: 12
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 99:
+Turns: 60
+P1 Rank: 2.0
+P2 Rank: 1.0
+
+Trial 100:
+Turns: 42
+P1 Rank: 1.0
+P2 Rank: 2.0
+
+
+===========================
+Total Trials: 100
+Player 1 Wins: 54
+Player 2 Wins: 43
+Draws: 3
+Win Rate - Player 1: 0.5400
+Win Rate - Player 2: 0.4300
+Draw Rate: 0.0300
+Non-Draw Avg Turns: 19.01
+Non-Draw Turns StdDev: 14.88
