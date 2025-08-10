@@ -1,8 +1,8 @@
 # Modern Warfare Chess Project
 
-中文页面 [点击这里](#现代战争棋mwchess项目)
+> 中文页面 [点击这里](#现代战争棋mwchess项目)
 
-A Chess Variant Representing Modern Warfare. 
+This project presents a chess variant inspired by modern warfare, ***Modern Warfare Chess (MWChess)***. You can find the complete game rules here, along with instructions on how to play this variant on digital devices via ***Ludii Player***. In addition, the project includes an analysis of its gameplay and discussions on the development of AI agents for this variant. 
 
 # About Chess
 Chess originated in 6th-century India, where its earliest known form was called Chaturanga. From there, it spread to Persia and the Arab world, eventually reaching Europe during the Middle Ages. Over time, it evolved into the standardized rule system recognized today, with the core mechanics of modern chess becoming firmly established by the late 15th century. As a game of deep intellectual engagement with a history spanning more than a millennium, chess has played a significant role in the development of human culture, embodying the essence of strategic planning, logical reasoning, and psychological competition.
@@ -18,7 +18,9 @@ Thanks to the creativity and dedication of chess enthusiasts and independent dev
 
 # 现代战争棋（MWChess）项目
 
-For the English version, [click here](#modern-warfare-chess-project)
+> For the English version, [click here](#modern-warfare-chess-project)
+
+该项目介绍了一款受现代战争主题启发的国际象棋变体，***现代战争棋（MWChess）***。您可以在此查阅完整的游戏规则，并了解如何通过 ***Ludii Player*** 在电子设备上游玩该变体。此外，项目还包含对其可玩性的分析，以及针对该变体的 AI Agent 开发探讨。
 
 ## License
 
