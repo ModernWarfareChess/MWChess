@@ -1,4 +1,4 @@
-# Modern Warfare Chess (MWChess): a Modern-Warfare-Themed Chess Variant
+# Modern Warfare Chess (MWChess): <br> a Modern-Warfare-Themed Chess Variant
 
 This document presents a newly designed chess variant—Modern Warfare Chess (MWChess)—which seeks to move beyond the medieval battlefield narrative traditionally associated with standard chess, and instead reflect the complexities of modern military systems and geopolitical dynamics. In this setting, players no longer assume the roles of kings or feudal commanders, but rather command modern combat units, firepower delivery systems, strategic deployments, and logistical support networks. At the same time, non-conventional elements such as political maneuvering, information control, and territorial influence are integrated into the game mechanics.
 
