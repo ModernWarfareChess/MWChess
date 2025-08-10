@@ -80,9 +80,6 @@ As illustrated:
   - If the destination square is occupied by an enemy piece, it captures that enemy piece and occupies the square.
   
   - The king ***cannot*** be sacrificed: no move is permitted if it results in the ***king*** being in a position where it could be captured (i.e., a ***checked*** state).
-  
-  #### Symbolism:
-  In MWChess, the ***king*** represents not only the supreme commander but also the final line of defense and the core will of a faction. Its safety directly determines the outcome of the entire war.
 
   #### Example:
   
@@ -91,6 +88,9 @@ As illustrated:
   <p align="center">
   <img src="res/expKing.jpg" alt="King" width="400">
   </p>
+
+  #### Symbolism:
+  In MWChess, the ***king*** represents not only the supreme commander but also the final line of defense and the core will of a faction. Its safety directly determines the outcome of the entire war.
 
 ### 3.2 ***Pawn***
   #### Movement Rules:
@@ -102,9 +102,6 @@ As illustrated:
   
   - ***Suppression Rule***: A ***pawn*** may ***only*** be captured by an enemy piece when it is ***suppressed***, meaning there are at least two enemy pieces within the eight adjacent squares surrounding the ***pawn***.
   
-  #### Symbolism:
-  ***Pawns*** represent frontline combat units in modern warfare, offering high mobility and strong area control. Compared to traditional chess, MWChess ***pawns*** are more powerful and serve as the backbone of a faction’s strategic execution. The suppression rule reflects the survivability of mainline troops when not under concentrated fire.
-
   #### Example:
   
   In the figure below, the white ***pawn*** on ***f2*** is on its initial square, so it may advance one or two squares along allowed files, reaching any highlighted square (e.g., ***d2*** or ***h2***). The ***pawn*** can capture the black ***pawn*** on ***f3***, which is suppressed by the white ***pawns*** on ***e4*** and ***f2***, but cannot capture the black ***pawn*** on ***g3*** as it is not suppressed. Although the black ***pawn*** on ***d4*** is suppressed by white ***pawns*** on ***c4*** and ***e4***, the white ***pawn*** on ***f2*** cannot capture it because ***pawns*** cannot capture when making a two-square initial advance.
@@ -112,6 +109,9 @@ As illustrated:
   <p align="center">
   <img src="res/expPawn.jpg" alt="Pawn" width="400">
   </p>
+
+  #### Symbolism:
+  ***Pawns*** represent frontline combat units in modern warfare, offering high mobility and strong area control. Compared to traditional chess, MWChess ***pawns*** are more powerful and serve as the backbone of a faction’s strategic execution. The suppression rule reflects the survivability of mainline troops when not under concentrated fire.
   
 ### 3.3 ***Rook***
   #### Movement Rules:
@@ -121,9 +121,6 @@ As illustrated:
   
   - The movement of friendly ***Bishops*** depends on the position of ***rooks***; a ***bishop*** may be moved to any square in the same ***rank*** or ***file*** as a friendly ***rook***.
   
-  #### Symbolism:
-  - The ***rook*** symbolizes electronic reconnaissance and support systems in modern warfare, such as radar, satellites, and communication nodes. While they lack offensive capability, they are critical to decision-making and strike coordination. Their high mobility and inability to capture highlight the covert and non-combat nature of such systems.
-
   #### Example:
   
   In the figure below, the white ***rook*** on ***d4*** can move diagonally to any highlighted square. Since rooks cannot capture, the black ***king*** was able to safely move from ***b7*** to ***b6*** in the previous move.
@@ -131,6 +128,9 @@ As illustrated:
   <p align="center">
   <img src="res/expRook.jpg" alt="Rook" width="400">
   </p>
+
+  #### Symbolism:
+  - The ***rook*** symbolizes electronic reconnaissance and support systems in modern warfare, such as radar, satellites, and communication nodes. While they lack offensive capability, they are critical to decision-making and strike coordination. Their high mobility and inability to capture highlight the covert and non-combat nature of such systems.  
 
 ### 3.4 ***Bishop***
   #### Movement Rules:
@@ -144,9 +144,6 @@ As illustrated:
 
   - A ***bishop***’s capturing ability is not subject to the suppression requirement for ***pawns***, nor are ***bishops*** immune to captures by ***bishops***. For example, a ***bishop*** may capture an enemy ***bishop*** or a ***pawn*** that is not under suppression.
 
-  #### Symbolism:
-  - ***Bishops*** represent long-range strike forces such as air and space-based precision weaponry. Their effectiveness depends on ground-based targeting and reconnaissance (i.e., the ***rooks***), embodying the integrated “ISR-strike” model of modern combat. The rule that ***bishops*** cannot be captured reflects the often irreversible nature of aerial strikes once launched.
-
   #### Example:
   
   In the figure below, the movement of the white ***bishops*** on ***h5*** and ***c1*** is constrained by the ranks and files controlled by the white ***rooks*** on ***e4*** and ***h1***, allowing the ***bishops*** to move to any highlighted square. Additionally, the ***bishop*** on ***h5*** can capture the black ***bishop*** on ***g6*** and the un-suppressed black ***pawn*** on ***g5***, moving into their squares.
@@ -154,6 +151,9 @@ As illustrated:
   <p align="center">
   <img src="res/expBishop.jpg" alt="Bishop" width="400">
   </p>
+
+  #### Symbolism:
+  - ***Bishops*** represent long-range strike forces such as air and space-based precision weaponry. Their effectiveness depends on ground-based targeting and reconnaissance (i.e., the ***rooks***), embodying the integrated “ISR-strike” model of modern combat. The rule that ***bishops*** cannot be captured reflects the often irreversible nature of aerial strikes once launched.
 
 ### 3.5 ***Knight***
   #### Movement Rules:
@@ -165,9 +165,6 @@ As illustrated:
 
   - (Note: This movement rule corresponds to the ***rook*** in classical chess. The name “knight” is retained for symbolic reasons.)
   
-  #### Symbolism:
-  - ***Knights*** represent special operations forces in modern warfare—highly mobile and capable of delivering decisive strikes. They can eliminate frontline units, long-range strike platforms, and even strategic-level political assets, reflecting their precision and versatility.
-
   #### Example:
   
   In the figure below, the white ***knight*** on ***e4*** can move to any highlighted square along horizontal and vertical directions. It can capture the black ***bishop*** on ***h4*** and the un-suppressed black ***pawn*** on ***e6***. Furthermore, if the ***knight*** captures the ***pawn*** on ***e6***, it puts the black ***king*** on ***e8*** in check.
@@ -176,14 +173,14 @@ As illustrated:
   <img src="res/expKnight.jpg" alt="Knight" width="400">
   </p>
 
+  #### Symbolism:
+  - ***Knights*** represent special operations forces in modern warfare—highly mobile and capable of delivering decisive strikes. They can eliminate frontline units, long-range strike platforms, and even strategic-level political assets, reflecting their precision and versatility.
+
 ### 3.6 ***Queen***
   #### Movement Rules:
   - The ***queen*** may move any number of squares in a straight line in any direction—orthogonal or diagonal—provided the path is unobstructed.
   - The ***queen*** ***cannot*** capture by movement; it may only move to unoccupied squares.
   - It plays a special role in the victory conditions: if a player’s ***queen*** successfully reaches any square on the opponent’s back rank (the ***1st*** rank for White, the ***8th*** rank for Black), that player immediately wins the game.
-
-  #### Symbolism:
-  The ***queen*** symbolizes non-military strategic power—such as politics, diplomacy, and media influence. While not directly involved in battlefield operations, it plays a decisive role in the overarching strategic framework. Its unrestricted movement reflects the flexibility and broad reach of political influence across multiple domains.
 
   #### Example:
   
@@ -192,6 +189,9 @@ As illustrated:
   <p align="center">
   <img src="res/expQueen.jpg" alt="Queen" width="400">
   </p>
+
+  #### Symbolism:
+  The ***queen*** symbolizes non-military strategic power—such as politics, diplomacy, and media influence. While not directly involved in battlefield operations, it plays a decisive role in the overarching strategic framework. Its unrestricted movement reflects the flexibility and broad reach of political influence across multiple domains.
 
 ---
 
