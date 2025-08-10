@@ -66,6 +66,9 @@ Black’s initial setup:
 
 As illustrated:
 
+<p align="center">
+<img src="res/initBoard.jpg" alt="Initial Board" width="400">
+</p>
 ---
 
 ## 3. Piece Rules and Symbolism
@@ -81,6 +84,14 @@ As illustrated:
   #### Symbolism:
   In MWChess, the ***king*** represents not only the supreme commander but also the final line of defense and the core will of a faction. Its safety directly determines the outcome of the entire war.
 
+  #### Example:
+  
+  In the figure below, the white ***king*** located on ***f4*** can move to any of the highlighted squares and can capture the black ***rook*** on ***e5***, but cannot move to ***f5*** or ***g5*** as those squares are under threat from the black ***king*** on ***g6***.
+  
+  <p align="center">
+  <img src="res/expKing.jpg" alt="King" width="400">
+  </p>
+
 ### 3.2 ***Pawn***
   #### Movement Rules:
   - A ***pawn*** may move one square in any of the following directions: forward, forward-left, forward-right, left, or right. It ***cannot*** move backward, backward-left, or backward-right.
@@ -94,6 +105,14 @@ As illustrated:
   #### Symbolism:
   ***Pawns*** represent frontline combat units in modern warfare, offering high mobility and strong area control. Compared to traditional chess, MWChess ***pawns*** are more powerful and serve as the backbone of a faction’s strategic execution. The suppression rule reflects the survivability of mainline troops when not under concentrated fire.
 
+  #### Example:
+  
+  In the figure below, the white ***pawn*** on ***f2*** is on its initial square, so it may advance one or two squares along allowed files, reaching any highlighted square (e.g., ***d2*** or ***h2***). The ***pawn*** can capture the black ***pawn*** on ***f3***, which is suppressed by the white ***pawns*** on ***e4*** and ***f2***, but cannot capture the black ***pawn*** on ***g3*** as it is not suppressed. Although the black ***pawn*** on ***d4*** is suppressed by white ***pawns*** on ***c4*** and ***e4***, the white ***pawn*** on ***f2*** cannot capture it because ***pawns*** cannot capture when making a two-square initial advance.
+  
+  <p align="center">
+  <img src="res/expPawn.jpg" alt="Pawn" width="400">
+  </p>
+  
 ### 3.3 ***Rook***
   #### Movement Rules:
   - A ***rook*** may move any number of squares in a straight line along the four diagonal directions: forward-left, forward-right, backward-left, and backward-right, as long as the path is unobstructed.
@@ -104,6 +123,14 @@ As illustrated:
   
   #### Symbolism:
   - The ***rook*** symbolizes electronic reconnaissance and support systems in modern warfare, such as radar, satellites, and communication nodes. While they lack offensive capability, they are critical to decision-making and strike coordination. Their high mobility and inability to capture highlight the covert and non-combat nature of such systems.
+
+  #### Example:
+  
+  In the figure below, the white ***rook*** on ***d4*** can move diagonally to any highlighted square. Since rooks cannot capture, the black ***king*** was able to safely move from ***b7*** to ***b6*** in the previous move.
+  
+  <p align="center">
+  <img src="res/expRook.jpg" alt="Rook" width="400">
+  </p>
 
 ### 3.4 ***Bishop***
   #### Movement Rules:
@@ -120,6 +147,14 @@ As illustrated:
   #### Symbolism:
   - ***Bishops*** represent long-range strike forces such as air and space-based precision weaponry. Their effectiveness depends on ground-based targeting and reconnaissance (i.e., the ***rooks***), embodying the integrated “ISR-strike” model of modern combat. The rule that ***bishops*** cannot be captured reflects the often irreversible nature of aerial strikes once launched.
 
+  #### Example:
+  
+  In the figure below, the movement of the white ***bishops*** on ***h5*** and ***c1*** is constrained by the ranks and files controlled by the white ***rooks*** on ***e4*** and ***h1***, allowing the ***bishops*** to move to any highlighted square. Additionally, the ***bishop*** on ***h5*** can capture the black ***bishop*** on ***g6*** and the un-suppressed black ***pawn*** on ***g5***, moving into their squares.
+  
+  <p align="center">
+  <img src="res/expBishop.jpg" alt="Bishop" width="400">
+  </p>
+
 ### 3.5 ***Knight***
   #### Movement Rules:
   - A ***knight*** may move any number of squares in a straight line along the four orthogonal directions: forward, backward, left, or right, as long as the path is unobstructed.
@@ -133,14 +168,30 @@ As illustrated:
   #### Symbolism:
   - ***Knights*** represent special operations forces in modern warfare—highly mobile and capable of delivering decisive strikes. They can eliminate frontline units, long-range strike platforms, and even strategic-level political assets, reflecting their precision and versatility.
 
+  #### Example:
+  
+  In the figure below, the white ***knight*** on ***e4*** can move to any highlighted square along horizontal and vertical directions. It can capture the black ***bishop*** on ***h4*** and the un-suppressed black ***pawn*** on ***e6***. Furthermore, if the ***knight*** captures the ***pawn*** on ***e6***, it puts the black ***king*** on ***e8*** in check.
+  
+  <p align="center">
+  <img src="res/expKnight.jpg" alt="Knight" width="400">
+  </p>
+
 ### 3.6 ***Queen***
   #### Movement Rules:
   - The ***queen*** may move any number of squares in a straight line in any direction—orthogonal or diagonal—provided the path is unobstructed.
   - The ***queen*** ***cannot*** capture by movement; it may only move to unoccupied squares.
-  - It plays a special role in the victory conditions: if a player’s ***queen*** successfully reaches any square on the opponent’s back rank (the 8th rank for White, the 1st rank for Black), that player immediately wins the game.
+  - It plays a special role in the victory conditions: if a player’s ***queen*** successfully reaches any square on the opponent’s back rank (the ***1st*** rank for White, the ***8th*** rank for Black), that player immediately wins the game.
 
   #### Symbolism:
   The ***queen*** symbolizes non-military strategic power—such as politics, diplomacy, and media influence. While not directly involved in battlefield operations, it plays a decisive role in the overarching strategic framework. Its unrestricted movement reflects the flexibility and broad reach of political influence across multiple domains.
+
+  #### Example:
+  
+  In the figure below, the white ***queen*** on ***c4*** can move to any highlighted square. Notably, if the ***queen*** moves to ***g8*** (black’s back rank, ***8th*** rank), white wins the game.
+  
+  <p align="center">
+  <img src="res/expQueen.jpg" alt="Queen" width="400">
+  </p>
 
 ---
 
@@ -152,7 +203,7 @@ If a player makes a move that places the opponent’s ***king*** in check, and t
 
 ### 4.2. ***PoliWin*** (Queen Reaches Back Rank)
 
-If a player’s ***queen*** successfully reaches any square on the opponent’s back rank (the 8th rank for White, the 1st rank for Black), that player immediately wins the game.
+If a player’s ***queen*** successfully reaches any square on the opponent’s back rank (the ***1st*** rank for White, the ***8th*** rank for Black), that player immediately wins the game.
 
 ### 4.3. ***Draw***
   - A draw may be offered by one player and accepted by the other.
@@ -163,6 +214,11 @@ If a player’s ***queen*** successfully reaches any square on the opponent’s 
 > ### Special Notes
 > - ***PoliWin*** takes lower priority than ***Check*** and ***Checkmate***.  
 >  Even if your next move could achieve ***PoliWin*** by moving the ***queen*** to the opponent's back rank, you must first respond to a ***Check*** if your ***king*** was checked in the opponent's previous turn. If it is ***Checkmate***, the opponent wins immediately.
+
+> In the figure below, although the black ***queen*** on ***e8*** could achieve a ***PoliWin*** victory by moving to ***e1*** (white’s back rank, ***1st*** rank), the black side must respond to the check on the black ***king*** on ***f6*** caused by the white ***pawn*** ’s previous move from ***g4*** to ***f5***. Therefore, black must first address the check by either capturing the suppressed white ***pawn*** on ***f5*** with the black ***pawn*** on ***g5*** or the black ***king*** on ***f6***, or by moving the black ***king*** to ***e7*** to escape the check.
+> <p align="center">
+> <img src="res/expPoliWin.jpg" alt="PoliWin&Check" width="400">
+> </p>
 
 ---
 
