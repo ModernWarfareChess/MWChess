@@ -25,11 +25,16 @@ You can find the complete rules of MWChess here — [English version](rule/MWChe
 
 ---
 
-## Play via the Ludii Player
+## Play via ***Ludii Player***
 
 Ludii is a general game system project designed to provide a unified platform for modeling and running a wide range of board, card, and other strategy games. The Ludii Player is the project’s official game execution software, capable of loading and playing games described in the Ludii Game Description Language (.lud files).
 
 A complete .lud game description file for MWChess has been prepared for the Ludii platform. You can find this file in the project repository and load it into the Ludii Player to play this chess variant.
+
+- ***[.lud](lud/MWChessV1.0.lud)*** file for MWChess
+- ***[Ludii Portal](https://ludii.games)***, the official page of Luddi
+- ***[Ludii Player](https://ludii.games/download.php)***, the download page of Ludii Player
+- ***[User guide](https://ludii.games/downloads/LudiiUserGuide.pdf)*** of Ludii Player 
 
 ---
 
@@ -59,11 +64,16 @@ For the English version, [click here](#modern-warfare-chess-project)
 
 ---
 
-### 在Ludii Player上游玩
+### 在 ***Ludii Player*** 上游玩
 
 Ludii 是一个通用游戏系统项目，旨在为各种棋类、牌类及其他博弈类游戏提供统一的建模与运行平台。Ludii Player 是该项目的官方游戏运行程序，支持加载和游玩基于 Ludii 游戏描述语言（.lud 文件）编写的游戏规则。
 
 MWChess 已为 Ludii 平台编写了完整的游戏描述文件，您可以在本项目中找到该 .lud 文件，并通过在 Ludii Player 中加载它来游玩本变体。
+
+- MWChess 的 ***[.lud](lud/MWChessV1.0.lud)*** 文件
+- Ludii的官方主页：***[Ludii Portal](https://ludii.games)***
+- Ludii Player 的下载界面：***[Ludii Player](https://ludii.games/download.php)***
+- Ludii Player 的使用说明：***[User Guide](https://ludii.games/downloads/LudiiUserGuide.pdf)***
 
 ---
 
