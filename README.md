@@ -10,6 +10,7 @@ This project presents a chess variant inspired by modern warfare, ***Modern Warf
 - [1. About Chess and Chess Variants](#1-about-chess-and-chess-variants)
 - [2. Complete Rules](#2-complete-rules)
 - [3. Play via Ludii Player](#3-play-via-ludii-player)
+- [4. License](#4-license)
 
 ---
 
@@ -47,6 +48,17 @@ A complete .lud game description file for MWChess has been prepared for the Ludi
 
 ---
 
+## 4. License
+
+- 🔓 The **code** in this repository (e.g., `analysis/RunningTrials.java`) - is licensed under the [MIT License](./LICENSE).
+- 📄 The **game rules**, documentation and Ludii `.lud` files (e.g., `rule/MWChessRule_EN.md`, `rule/MWChessRule_CN.md` and `lud/MWChessV1.0.lud`) are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License**.
+
+[![Creative Commons License](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+  
+View license: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
+---
+
 # 现代战争棋（MWChess）项目
 
 For the English version, [click here](#modern-warfare-chess-project)
@@ -59,6 +71,7 @@ For the English version, [click here](#modern-warfare-chess-project)
 - [1. 关于国际象棋和国际象棋变体](#1-关于国际象棋和国际象棋变体)
 - [2. 完整规则](#2-完整规则)
 - [3. 在 Ludii Player 上游玩](#3-在-ludii-player-上游玩)
+- [4. 许可协议](#4-许可协议)
 
 ---
 
@@ -95,11 +108,11 @@ MWChess 已为 Ludii 平台编写了完整的游戏描述文件，您可以在�
 
 ---
 
-## License
+## 4. 许可协议
 
-- 🔓 The **code** in this repository (e.g., `analysis/RunningTrials.java`) - is licensed under the [MIT License](./LICENSE).
-- 📄 The **game rules**, documentation and Ludii `.lud` files (e.g., `rule/MWChessRule_EN.md`, `rule/MWChessRule_CN.md` and `lud/MWChessV1.0.lud`) are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License**.
+- 🔓 本仓库中的**代码**（例如 `analysis/RunningTrials.java`）采用 [MIT 许可协议](./LICENSE) 进行授权。  
+- 📄 **游戏规则**、文档及 Ludii `.lud` 文件（例如 `rule/MWChessRule_EN.md`、`rule/MWChessRule_CN.md` 和 `lud/MWChessV1.0.lud`）采用**知识共享署名-非商业性使用 4.0 国际许可协议**授权。
 
-[![Creative Commons License](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
-  
-View license: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+[![知识共享许可协议](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+查看许可详情：[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
