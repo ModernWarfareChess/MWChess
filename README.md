@@ -4,7 +4,16 @@
 
 This project presents a chess variant inspired by modern warfare, ***Modern Warfare Chess (MWChess)***. You can find the complete game rules here, along with instructions on how to play this variant on digital devices via ***Ludii Player***. In addition, the project includes an analysis of its gameplay and discussions on the development of AI agents for this variant. 
 
-## About Chess and Chess Variants
+---
+
+## Table of Contents
+- [1. About Chess and Chess Variants](#1-about-chess-and-chess-variants)
+- [2. Complete Rules](#2-complete-rules)
+- [3. Play via Ludii Player](#3-play-via-ludii-player)
+
+---
+
+## 1. About Chess and Chess Variants
 Chess originated in 6th-century India, where its earliest known form was called Chaturanga. From there, it spread to Persia and the Arab world, eventually reaching Europe during the Middle Ages. Over time, it evolved into the standardized rule system recognized today, with the core mechanics of modern chess becoming firmly established by the late 15th century. As a game of deep intellectual engagement with a history spanning more than a millennium, chess has played a significant role in the development of human culture, embodying the essence of strategic planning, logical reasoning, and psychological competition.
 
 Today, chess stands as one of the most influential abstract strategy games worldwide and is formally recognized as a competitive sport. Hundreds of international tournaments are held annually, including the World Chess Championship, the Chess Olympiad, and the FIDE Grand Prix, drawing elite players from across the globe and advancing the global reach of the game.
@@ -17,7 +26,7 @@ Thanks to the creativity and dedication of chess enthusiasts and independent dev
 
 ---
 
-## Complete Rules
+## 2. Complete Rules
 
 This chess variant, MWChess, is designed to replace the medieval warfare symbolism of traditional chess with a modern warfare theme through thoughtful abstraction and design. While presenting contemporary military concepts, it retains the classic elements of chess, making the game both easy to learn and rich in strategic depth.
 
@@ -25,7 +34,7 @@ You can find the complete rules of MWChess here — [English version](rule/MWChe
 
 ---
 
-## Play via ***Ludii Player***
+## 3. Play via ***Ludii Player***
 
 Ludii is a general game system project designed to provide a unified platform for modeling and running a wide range of board, card, and other strategy games. The Ludii Player is the project’s official game execution software, capable of loading and playing games described in the Ludii Game Description Language (.lud files).
 
@@ -44,7 +53,16 @@ For the English version, [click here](#modern-warfare-chess-project)
 
 该项目介绍了一款受现代战争主题启发的国际象棋变体，***现代战争棋（MWChess）***。您可以在此查阅完整的游戏规则，并了解如何通过 ***Ludii Player*** 在电子设备上游玩该变体。此外，项目还包含对其可玩性的分析，以及针对该变体的 AI Agent 开发探讨。
 
-## 关于国际象棋和国际象棋变体
+---
+
+## 目录
+- [1. 关于国际象棋和国际象棋变体](#1-关于国际象棋和国际象棋变体)
+- [2. 完整规则](#2-完整规则)
+- [3. 在 Ludii Player 上游玩](#3-在-ludii-player-上游玩)
+
+---
+
+## 1. 关于国际象棋和国际象棋变体
 
 国际象棋（Chess）起源于公元6世纪的印度，其早期形式为“恰图兰卡（Chaturanga）”，随后传播至波斯、阿拉伯世界，并在中世纪时期传入欧洲。在欧洲的发展过程中，国际象棋逐步演化为如今广为人知的标准规则体系，并在15世纪末基本定型。作为一项拥有逾千年历史的智力游戏，国际象棋在人类文明史上始终扮演着重要角色，是策略性、逻辑思维与心理博弈的集大成者。
 
@@ -56,7 +74,7 @@ For the English version, [click here](#modern-warfare-chess-project)
 
 得益于全球棋迷与开发者社区的积极探索，国际象棋的核心理念被不断延展与再诠释。许多变体引入了新的棋子类型、异构棋盘，甚至是动态规则与主题设定，使得这项古老游戏获得了持续的生命力与创新的活力。
 
-## 完整规则
+## 2. 完整规则
 
 本变体-MWChess-意在 通过合理的抽象和设计 将国际象棋原本的象征意义- 中世纪战争 替换为现代战争背景。在展示现代战争概念的同时，又保留国际象棋中的经典元素，使得该变体易于学习 同时又具有足够的博弈深度。
 
@@ -64,7 +82,7 @@ For the English version, [click here](#modern-warfare-chess-project)
 
 ---
 
-### 在 ***Ludii Player*** 上游玩
+### 3. 在 ***Ludii Player*** 上游玩
 
 Ludii 是一个通用游戏系统项目，旨在为各种棋类、牌类及其他博弈类游戏提供统一的建模与运行平台。Ludii Player 是该项目的官方游戏运行程序，支持加载和游玩基于 Ludii 游戏描述语言（.lud 文件）编写的游戏规则。
 
