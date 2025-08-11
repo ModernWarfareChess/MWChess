@@ -95,7 +95,7 @@ For the English version, [click here](#modern-warfare-chess-project)
 
 ---
 
-### 3. 在 ***Ludii Player*** 上游玩
+## 3. 在 ***Ludii Player*** 上游玩
 
 Ludii 是一个通用游戏系统项目，旨在为各种棋类、牌类及其他博弈类游戏提供统一的建模与运行平台。Ludii Player 是该项目的官方游戏运行程序，支持加载和游玩基于 Ludii 游戏描述语言（.lud 文件）编写的游戏规则。
 
