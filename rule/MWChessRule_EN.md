@@ -227,14 +227,17 @@ If a player’s ***queen*** successfully reaches any square on the opponent’s 
   - If the same position occurs three times, with the same player to move and the same possible legal moves each time, the game ends in a ***threefold*** repetition, resulting in a draw.
   - If both players make 50 consecutive moves without any ***capture***, the game ends in a draw.
 
-> ### Special Notes
-> - ***PoliWin*** takes lower priority than ***Check*** and ***Checkmate***.  
->  Even if your next move could achieve ***PoliWin*** by moving the ***queen*** to the opponent's back rank, you must first respond to a ***Check*** if your ***king*** was checked in the opponent's previous turn. If it is ***Checkmate***, the opponent wins immediately.
+### Special Notes
 
-> In the figure below, although the black ***queen*** on ***e8*** could achieve a ***PoliWin*** victory by moving to ***e1*** (white’s back rank, ***1st*** rank), the black side must respond to the check on the black ***king*** on ***f6*** caused by the white ***pawn*** ’s previous move from ***g4*** to ***f5***. Therefore, black must first address the check by either capturing the suppressed white ***pawn*** on ***f5*** with the black ***pawn*** on ***g5*** or the black ***king*** on ***f6***, or by moving the black ***king*** to ***e7*** to escape the check.
-> <p align="center">
-> <img src="res/expPoliWin.jpg" alt="PoliWin&Check" width="400">
-> </p>
+***PoliWin*** takes lower priority than ***Check*** and ***Checkmate***.  
+
+Even if your next move could achieve ***PoliWin*** by moving the ***queen*** to the opponent's back rank, you must first respond to a ***Check*** if your ***king*** was checked in the opponent's previous turn. If it is ***Checkmate***, the opponent wins immediately.
+
+In the figure below, although the black ***queen*** on ***e8*** could achieve a ***PoliWin*** victory by moving to ***e1*** (white’s back rank, ***1st*** rank), the black side must respond to the check on the black ***king*** on ***f6*** caused by the white ***pawn*** ’s previous move from ***g4*** to ***f5***. Therefore, black must first address the check by either capturing the suppressed white ***pawn*** on ***f5*** with the black ***pawn*** on ***g5*** or the black ***king*** on ***f6***, or by moving the black ***king*** to ***e7*** to escape the check.
+
+<p align="center">
+<img src="res/expPoliWin.jpg" alt="PoliWin&Check" width="400">
+</p>
 
 ---
 
@@ -264,7 +267,9 @@ If a player’s ***queen*** successfully reaches any square on the opponent’s 
 
   While the ***queen*** cannot capture, it has powerful mobility and decisive influence over the game’s outcome. It should be carefully preserved during the early game and positioned in the mid-to-late game to strike at victory via PoliWin. Eliminating the opponent’s ***queen*** is also a key strategic objective, enabling control of tempo and long-term advantage.
 
-> © 2025 by the original author.  
-> This ruleset is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.  
-> You may redistribute and modify this file with proper attribution, but you may not use it commercially.  
-> License: https://creativecommons.org/licenses/by-nc/4.0/
+---
+
+© 2025 by the original author.  
+This ruleset is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.  
+You may redistribute and modify this file with proper attribution, but you may not use it commercially.  
+License: https://creativecommons.org/licenses/by-nc/4.0/
