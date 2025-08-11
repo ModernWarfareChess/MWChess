@@ -10,7 +10,8 @@ This project presents a chess variant inspired by modern warfare, ***Modern Warf
 - [1. About Chess and Chess Variants](#1-about-chess-and-chess-variants)
 - [2. Complete Rules](#2-complete-rules)
 - [3. Play via Ludii Player](#3-play-via-ludii-player)
-- [4. License](#4-license)
+- [4. Relevant Links](#4-relevant-links)
+- [5. License](#5-license)
 
 ---
 
@@ -48,7 +49,14 @@ A complete .lud game description file for MWChess has been prepared for the Ludi
 
 ---
 
-## 4. License
+## 4. Relevant Links
+
+- Ludii games submission post : [Ludii Forum](https://ludii.games/forum/showthread.php?tid=2473)
+- Coming soon...
+  
+---
+
+## 5. License
 
 - 🔓 The **code** in this repository (e.g., `analysis/RunningTrials.java`) - is licensed under the [MIT License](./LICENSE).
 - 📄 The **game rules**, documentation and Ludii `.lud` files (e.g., `rule/MWChessRule_EN.md`, `rule/MWChessRule_CN.md` and `lud/MWChessV1.0.lud`) are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License**.
@@ -71,7 +79,8 @@ For the English version, [click here](#modern-warfare-chess-project)
 - [1. 关于国际象棋和国际象棋变体](#1-关于国际象棋和国际象棋变体)
 - [2. 完整规则](#2-完整规则)
 - [3. 在 Ludii Player 上游玩](#3-在-ludii-player-上游玩)
-- [4. 许可协议](#4-许可协议)
+- [4. 相关连接](#4-相关连接)
+- [5. 许可协议](#5-许可协议)
 
 ---
 
@@ -106,6 +115,13 @@ MWChess 已为 Ludii 平台编写了完整的游戏描述文件，您可以在�
 - Ludii Player 的下载界面：***[Ludii Player](https://ludii.games/download.php)***
 - Ludii Player 的使用说明：***[User Guide](https://ludii.games/downloads/LudiiUserGuide.pdf)***
 
+---
+
+## 4. 相关连接
+
+- Ludii 游戏提交贴 : [Ludii Forum](https://ludii.games/forum/showthread.php?tid=2473)
+- Coming soon...
+  
 ---
 
 ## 4. 许可协议
