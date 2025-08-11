@@ -25,7 +25,7 @@ You can find the complete rules of MWChess here — [English version](rule/MWChe
 
 ---
 
-## play via the Ludii Player
+## Play via the Ludii Player
 
 Ludii is a general game system project designed to provide a unified platform for modeling and running a wide range of board, card, and other strategy games. The Ludii Player is the project’s official game execution software, capable of loading and playing games described in the Ludii Game Description Language (.lud files).
 
