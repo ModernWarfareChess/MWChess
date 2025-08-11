@@ -25,6 +25,14 @@ You can find the complete rules of MWChess here — [English version](rule/MWChe
 
 ---
 
+## play via the Ludii Player
+
+Ludii is a general game system project designed to provide a unified platform for modeling and running a wide range of board, card, and other strategy games. The Ludii Player is the project’s official game execution software, capable of loading and playing games described in the Ludii Game Description Language (.lud files).
+
+A complete .lud game description file for MWChess has been prepared for the Ludii platform. You can find this file in the project repository and load it into the Ludii Player to play this chess variant.
+
+---
+
 # 现代战争棋（MWChess）项目
 
 For the English version, [click here](#modern-warfare-chess-project)
@@ -48,6 +56,16 @@ For the English version, [click here](#modern-warfare-chess-project)
 本变体-MWChess-意在 通过合理的抽象和设计 将国际象棋原本的象征意义- 中世纪战争 替换为现代战争背景。在展示现代战争概念的同时，又保留国际象棋中的经典元素，使得该变体易于学习 同时又具有足够的博弈深度。
 
 你可以在这里找到MWChess的完整规则，[中文版](rule/MWChessRule_CN.md), [英文版](rule/MWChessRule_EN.md)。
+
+---
+
+### 在Ludii Player上游玩
+
+Ludii 是一个通用游戏系统项目，旨在为各种棋类、牌类及其他博弈类游戏提供统一的建模与运行平台。Ludii Player 是该项目的官方游戏运行程序，支持加载和游玩基于 Ludii 游戏描述语言（.lud 文件）编写的游戏规则。
+
+MWChess 已为 Ludii 平台编写了完整的游戏描述文件，您可以在本项目中找到该 .lud 文件，并通过在 Ludii Player 中加载它来游玩本变体。
+
+---
 
 ## License
 
