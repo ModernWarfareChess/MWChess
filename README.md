@@ -69,9 +69,9 @@ MWChess 已为 Ludii 平台编写了完整的游戏描述文件，您可以在�
 
 ## License
 
-- 🔓 The **code** in this repository - including Ludii .lud files and .java files for LudiiTutorials from Ludeme Project - is licensed under the [MIT License](./LICENSE).
-- 📄 The **game rules** and documentation (e.g., `rules.md`, `docs/index.md`) are licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License**.
+- 🔓 The **code** in this repository - including Ludii .lud files and .java files for LudiiTutorials from Ludeme Project (e.g., `lud/MWChessV1.0.lud`, `analysis/RunningTrials.java`) - is licensed under the [MIT License](./LICENSE).
+- 📄 The **game rules** and documentation (e.g., `rule/MWChessRule_EN.md`, `rule/MWChessRule_CN.md`) are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License**.
 
-[![Creative Commons License](https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![Creative Commons License](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
   
-View license: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+View license: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
