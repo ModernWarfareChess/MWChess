@@ -10,8 +10,11 @@ This project presents a chess variant inspired by modern warfare, ***Modern Warf
 - [1. About Chess and Chess Variants](#1-about-chess-and-chess-variants)
 - [2. Complete Rules](#2-complete-rules)
 - [3. Play via Ludii Player](#3-play-via-ludii-player)
-- [4. Relevant Links](#4-relevant-links)
-- [5. License](#5-license)
+- [4. AI Agent](#4-ai-agent)
+- [5. Game Analysis](#5-game-analysis)
+- [6. Deep Learning](#6-deep-learning)
+- [7. Relevant Links](#7-relevant-links)
+- [8. License](#8-license)
 
 ---
 
@@ -48,15 +51,59 @@ A complete .lud game description file for MWChess has been prepared for the Ludi
 - ***[User guide](https://ludii.games/downloads/LudiiUserGuide.pdf)*** of Ludii Player 
 
 ---
+## 4. AI Agent
 
-## 4. Relevant Links
+Ludii Player comes with a variety of built-in AI Agent, including those based on search algorithms (such as Alpha-Beta Search) and simulation-based algorithms (Monte Carlo Tree Search). Among them, UBFM and Alpha-Beta perform particularly well in deterministic, chess-like games with clearly defined rules. When combined with the piece-value-based heuristic functions provided in the AI meta section of the .lud file, these two AIs can reach a level comparable to that of a beginner human player (such as myself…) when the thinking time per move is set to around 3 seconds.
 
-- Ludii games submission post : [Ludii Forum](https://ludii.games/forum/showthread.php?tid=2473)
-- Coming soon...
+Therefore, when playing MWChess in single-player mode via Ludii Player, it is recommended to choose ***UBFM*** or ***Alpha-Beta*** as the AI Agent and set the AI thinking time to at least ***3*** seconds to achieve a not-bad gameplay experience.
+
+- About the AI Agents in Ludii Player: ***[User Guide](https://ludii.games/downloads/LudiiUserGuide.pdf)***
+- Ludii Language Reference: ***[Ludii Language Reference](https://ludii.games/downloads/LudiiLanguageReference.pdf)***
+
+---
+## 5. Game Analysis
+
+Using the UBFM algorithm, a preliminary playability analysis of MWChess was conducted by running 100 AI vs AI matches, each limited to a maximum of 70 turns, and comparing the results with those from classical chess. Based on the comparison below, we can draw the following preliminary conclusion: MWChess demonstrates good fairness, and the number of turns required for a draw is likely shorter than in classical chess, indicating a faster overall pace of play.
+
+MWChess ：
+- Player 1 Wins: 54%
+- Player 2 Wins: 43%
+- Draws: 3%
+- Non-Draw Avg Turns: 19.01
+- Non-Draw Turns StdDev: 14.88
+
+Chess ：
+- Player 1 Wins: 18%
+- Player 2 Wins: 25%
+- Draws: 57%
+- Non-Draw Avg Turns: 44.93
+- Non-Draw Turns StdDev: 13.98
+
+Further analysis regarding the game’s playability would be highly appreciated.
+
+You can find tutorials on testing games using the Ludii API here: ***[Ludii’s Tutorials](https://ludiitutorials.readthedocs.io/en/latest/)***, as well as the ***[RunningTrials.java](analysis/RunningTrials.java)*** file used for testing MWChess, along with the test result files: ***[results_MWChess.txt](analysis/results_MWChess.txt)*** and ***[results_Chess.txt](analysis/results_Chess.txt)***.
+
+---
+## 6. Deep Learning
+
+Pursuing higher-level AI bots is both an interesting and challenging endeavor. High-level AI bots help humans study game fairness (e.g., whether the first player has a clear advantage or disadvantage) and playability (e.g., existence of fixed patterns), while also assisting players in improving their own skills. For example, AlphaZero has driven a major revolution in the chess community through such advances.
+
+The open-source project ***Polygames*** is a promising starting point. Polygames, developed by Meta AI (formerly Facebook AI), is a research framework designed for training strategy game AIs via self-play. Currently, Polygames supports the universal game language format (.lud) proposed by Ludii as input for autonomous AI training.
+
+However, training high-level AI requires expertise in deep learning. Therefore, I warmly encourage all developers interested in the MWChess project to try training their own AI bots and keep me updated on your progress.
+
+- Official GitHub of the Polygames project: ***[Polygames](https://github.com/facebookarchive/Polygames)***
+- GitHub extension for Polygames + Ludii: ***[Polygames&Ludii](https://github.com/facebookarchive/Polygames/tree/main/src/games/ludii)***, along with the research paper: ***[arxiv](https://arxiv.org/pdf/2101.09562)***
+---
+
+## 7. Relevant Links
+
+- ***Ludii*** game submission post : [Ludii Forum](https://ludii.games/forum/showthread.php?tid=2473)
+- ***chessvariants.org*** submission : Coming soon...
   
 ---
 
-## 5. License
+## 8. License
 
 - 🔓 The **code** in this repository (e.g., `analysis/RunningTrials.java`) - is licensed under the [MIT License](./LICENSE).
 - 📄 The **game rules**, documentation and Ludii `.lud` files (e.g., `rule/MWChessRule_EN.md`, `rule/MWChessRule_CN.md` and `lud/MWChessV1.0.lud`) are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License**.
@@ -79,7 +126,7 @@ For the English version, [click here](#modern-warfare-chess-project)
 - [1. 关于国际象棋和国际象棋变体](#1-关于国际象棋和国际象棋变体)
 - [2. 完整规则](#2-完整规则)
 - [3. 在 Ludii Player 上游玩](#3-在-ludii-player-上游玩)
-- [4. AI机器人](#4-ai机器人)
+- [4. AI 机器人](#4-ai机器人)
 - [5. 游戏分析](#5-游戏分析)
 - [6. 深度学习](#6-深度学习)
 - [7. 相关连接](#7-相关连接)
@@ -119,7 +166,7 @@ MWChess 已为 Ludii 平台编写了完整的游戏描述文件，您可以在�
 - Ludii Player 的使用说明：***[User Guide](https://ludii.games/downloads/LudiiUserGuide.pdf)***
 
 ---
-## 4. AI机器人
+## 4. AI 机器人
 
 Ludii Player 内置了多种AI机器人，涵盖基于搜索算法（如 Alpha-Beta Search）和基于模拟算法（Monte Carlo Tree Search）的实现。其中，UBFM 和 Alpha-Beta 在规则明确、无随机性因素的国际象棋类游戏中表现尤为出色。当配合 .lud 文件中 AI meta 部分提供的基于棋子价值的启发式函数时，这两类AI机器人在单步思考时间设置为约3秒的情况下，已基本达到可以与初学者（例如我……）对弈的水平。
 
@@ -168,7 +215,7 @@ Chess ：
 ## 7. 相关连接
 
 - Ludii 游戏提交贴 : [Ludii Forum](https://ludii.games/forum/showthread.php?tid=2473)
-- Coming soon...
+- chessvariants.org 国际象棋变体提交 : Coming soon...
   
 ---
 
