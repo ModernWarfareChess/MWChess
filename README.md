@@ -35,7 +35,7 @@ Thanks to the creativity and dedication of chess enthusiasts and independent dev
 
 This chess variant, MWChess, is designed to replace the medieval warfare symbolism of traditional chess with a modern warfare theme through thoughtful abstraction and design. While presenting contemporary military concepts, it retains the classic elements of chess, making the game both easy to learn and rich in strategic depth.
 
-You can find the complete rules of MWChess here — [English version](rule/MWChessRule_EN.md) and [Chinese version](rule/MWChessRule_CN.md).
+You can find the complete rules of MWChess here — ***[English version](rule/MWChessRule_EN.md)*** and ***[Chinese version](rule/MWChessRule_CN.md)***.
 
 ---
 
@@ -150,7 +150,7 @@ For the English version, [click here](#modern-warfare-chess-project)
 
 本变体-MWChess-意在 通过合理的抽象和设计 将国际象棋原本的象征意义- 中世纪战争 替换为现代战争背景。在展示现代战争概念的同时，又保留国际象棋中的经典元素，使得该变体易于学习 同时又具有足够的博弈深度。
 
-你可以在这里找到MWChess的完整规则，[中文版](rule/MWChessRule_CN.md), [英文版](rule/MWChessRule_EN.md)。
+你可以在这里找到MWChess的完整规则，***[中文版](rule/MWChessRule_CN.md)***, ***[英文版](rule/MWChessRule_EN.md)***。
 
 ---
 
