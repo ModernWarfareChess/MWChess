@@ -79,8 +79,11 @@ For the English version, [click here](#modern-warfare-chess-project)
 - [1. 关于国际象棋和国际象棋变体](#1-关于国际象棋和国际象棋变体)
 - [2. 完整规则](#2-完整规则)
 - [3. 在 Ludii Player 上游玩](#3-在-ludii-player-上游玩)
-- [4. 相关连接](#4-相关连接)
-- [5. 许可协议](#5-许可协议)
+- [4. AI机器人](#4-ai机器人)
+- [5. 游戏分析](#5-游戏分析)
+- [6. 深度学习](#6-深度学习)
+- [7. 相关连接](#7-相关连接)
+- [8. 许可协议](#8-许可协议)
 
 ---
 
@@ -116,15 +119,60 @@ MWChess 已为 Ludii 平台编写了完整的游戏描述文件，您可以在�
 - Ludii Player 的使用说明：***[User Guide](https://ludii.games/downloads/LudiiUserGuide.pdf)***
 
 ---
+## 4. AI机器人
 
-## 4. 相关连接
+Ludii Player 内置了多种AI机器人，涵盖基于搜索算法（如 Alpha-Beta Search）和基于模拟算法（Monte Carlo Tree Search）的实现。其中，UBFM 和 Alpha-Beta 在规则明确、无随机性因素的国际象棋类游戏中表现尤为出色。当配合 .lud 文件中 AI meta 部分提供的基于棋子价值的启发式函数时，这两类AI机器人在单步思考时间设置为约3秒的情况下，已基本达到可以与初学者（例如我……）对弈的水平。
+
+因此，当玩家在 Ludii Player 中以单人模式体验 MWChess 时，建议选择 ***UBFM*** 或 ***Alpha-Beta*** 作为 AI 对手，并将 AI 思考时间设置为 ***3*** 秒以上，以获得较好的游戏体验。
+
+- Ludii Player 中 AI 机器人的使用说明：***[User Guide](https://ludii.games/downloads/LudiiUserGuide.pdf)***
+- Ludii 语言 指南：***[Ludii Language Reference](https://ludii.games/downloads/LudiiLanguageReference.pdf)***
+ 
+---
+## 5. 游戏分析
+
+基于UBFM算法，我对MWChess的游戏性进行了初步的测试。方法是运行100局 AI vs AI 对局（每局不超过70回合），并与经典国际象棋进行对比。根据下方的对比结果，可以得出以下初步结论：MWChess 在公平性方面表现良好，其对局达到平局所需的回合数可能比经典国际象棋更少，也就是说游戏节奏更快。
+
+MWChess ：
+- Player 1 Wins: 54%
+- Player 2 Wins: 43%
+- Draws: 3%
+- Non-Draw Avg Turns: 19.01
+- Non-Draw Turns StdDev: 14.88
+
+Chess ：
+- Player 1 Wins: 18%
+- Player 2 Wins: 25%
+- Draws: 57%
+- Non-Draw Avg Turns: 44.93
+- Non-Draw Turns StdDev: 13.98
+
+我非常欢迎对于游戏性方面的进一步分析和研究。
+
+你可以在这里找到通过Ludii API测试游戏的教程：***[Ludii’s Tutorials](https://ludiitutorials.readthedocs.io/en/latest/)***, 以及测试MWChess所使用的 ***[RunningTrials.java](analysis/RunningTrials.java)*** 以及测试结果文件：***[results_MWChess.txt](analysis/results_MWChess.txt)*** 和 ***[results_Chess.txt](analysis/results_Chess.txt)***。
+
+---
+## 6. 深度学习
+
+追求更高水平的 AI 机器人是一项既有趣又充满挑战的工作。高水平的 AI 机器人不仅有助于人类深入研究游戏的公平性（例如先手是否具备明显优势或劣势）和可玩性（是否存在固定套路），还能帮助玩家提升自身水平。正如 AlphaZero 对国际象棋界带来的巨大变革一样，强大的 AI 能推动游戏策略的创新。
+
+开源项目 ***Polygames*** 是一个不错的起点。Polygames 由 Meta AI（原 Facebook AI）开发，是一个专为通过自我对弈训练策略游戏 AI 而设计的研究框架。目前，Polygames 支持 Ludii 提出的通用游戏语言（.lud 格式）作为游戏规则输入，用于 AI 机器人的自主训练。
+
+训练高水平 AI 机器人需要深度学习方面的专业知识。因此，对于所有对 MWChess 项目感兴趣的开发者，我非常欢迎你们尝试训练自己的 AI 机器人，并随时告诉我你们的进展。
+
+- Polygames项目官方GitHub：***[Polygames](https://github.com/facebookarchive/Polygames)***
+- Polygames + Ludii 的GitHub拓展：***[Polygames&Ludii](https://github.com/facebookarchive/Polygames/tree/main/src/games/ludii)***, 以及研究论文：***[arxiv](https://arxiv.org/pdf/2101.09562)***
+
+---
+
+## 7. 相关连接
 
 - Ludii 游戏提交贴 : [Ludii Forum](https://ludii.games/forum/showthread.php?tid=2473)
 - Coming soon...
   
 ---
 
-## 4. 许可协议
+## 8. 许可协议
 
 - 🔓 本仓库中的**代码**（例如 `analysis/RunningTrials.java`）采用 [MIT 许可协议](./LICENSE) 进行授权。  
 - 📄 **游戏规则**、文档及 Ludii `.lud` 文件（例如 `rule/MWChessRule_EN.md`、`rule/MWChessRule_CN.md` 和 `lud/MWChessV1.0.lud`）采用**知识共享署名-非商业性使用 4.0 国际许可协议**授权。
