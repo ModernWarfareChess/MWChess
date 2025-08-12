@@ -219,7 +219,7 @@ If a player makes a move that places the opponent’s ***king*** in check, and t
 
 ### ***PoliWin*** (Queen Reaches Back Rank)
 
-If a player’s ***queen*** successfully reaches any square on the opponent’s back rank (the ***1st*** rank for White, the ***8th*** rank for Black), that player immediately wins the game.
+If a player’s ***queen*** successfully reaches any square on the opponent’s back rank (the ***1st*** rank for White, the ***8th*** rank for Black), and his king is not in check, that player immediately wins the game.
 
 ### ***Draw***
   - A draw may be offered by one player and accepted by the other.
