@@ -99,7 +99,7 @@ However, training high-level AI requires expertise in deep learning. Therefore, 
 ## 7. Relevant Links
 
 - ***Ludii*** game submission post : [Ludii Forum](https://ludii.games/forum/showthread.php?tid=2473)
-- ***chessvariants.org*** submission : Coming soon...
+- ***chessvariants.org*** submission : [MWChess Page (under reveiw)](https://www.chessvariants.com/rules/modern-warfare-chess)
   
 ---
 
@@ -215,7 +215,7 @@ Chess ：
 ## 7. 相关连接
 
 - Ludii 游戏提交贴 : [Ludii Forum](https://ludii.games/forum/showthread.php?tid=2473)
-- chessvariants.org 国际象棋变体提交 : Coming soon...
+- chessvariants.org 国际象棋变体提交 : [MWChess提交页面（审核中）](https://www.chessvariants.com/rules/modern-warfare-chess)
   
 ---
 
